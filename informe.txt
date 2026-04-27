@@ -1,4 +1,5 @@
-1. Para crear el xsd he utilizado las etiquetas básicas y me he ceñido a lo que pide la práctica.
+1. Herramientas utilizadas para crear y validar el XSD. 
+Para crear el xsd he utilizado las etiquetas básicas y me he ceñido a lo que pide la práctica.
 
 El esquema debe cumplir lo siguiente:
 
@@ -27,3 +28,12 @@ El esquema debe cumplir lo siguiente:
 - Incluye la referencia al esquema en el XML mediante xsi:noNamespaceSchemaLocation.
     - Ejemplo en el código
     xsi:noNamespaceSchemaLocation="recetas.xsd"
+
+2. Evidencia de que el XML valida correctamente contra el XSD (captura).
+
+La captura está dentro de la carpeta assert\img.
+
+
+3. Para qué sirve DOMParser y en qué se diferencia a trabajar con JSON.
+
+El DOMParser
