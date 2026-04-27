@@ -43,4 +43,4 @@ JSON se utiliza para intercambiar datos entre servidores y las aplicaciones web 
 para poder manejar esos datos y poder verlos o representarlos.
 
 
-Para ver la tabla ya pintada con las cosas utilizo npx live-server en la terminal de VSC.
+Para ver la tabla ya pintada con las recetas utilizo npx live-server en la terminal de VSC.
