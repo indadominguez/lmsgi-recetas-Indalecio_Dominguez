@@ -36,4 +36,7 @@ La captura está dentro de la carpeta assert\img.
 
 3. Para qué sirve DOMParser y en qué se diferencia a trabajar con JSON.
 
-El DOMParser
+El DOMParser es una API que ya viene incorporada a JS que nos ayuda a poder cambiar la estructura de la información de manera que siempre podamos
+obtener la información a pesar que en un principio no podamos acceder a ella.
+
+JSON se utiliza para intercambiar datos entre servidores y las aplicaciones web por lo que, si no estamos trabajando con JSON necesitamos el DOMParser para poder manejar esos datos y poder verlos ya 
