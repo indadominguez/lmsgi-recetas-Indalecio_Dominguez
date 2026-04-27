@@ -1,0 +1,23 @@
+[
+  {
+    "codigo": "01",
+    "nombre": "Pizza",
+    "categoria": "Principal",
+    "tiempo": 30,
+    "dificultad": "Media"
+  },
+  {
+    "codigo": "02",
+    "nombre": "Salmorejo",
+    "categoria": "Entrante",
+    "tiempo": 12,
+    "dificultad": "Baja"
+  },
+  {
+    "codigo": "03",
+    "nombre": "Helado",
+    "categoria": "Postre",
+    "tiempo": 50,
+    "dificultad": "Alta"
+  }
+]
