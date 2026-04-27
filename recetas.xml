@@ -1,23 +1,25 @@
 <recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:noNamespaceSchemaLocation="recetas.xsd">
-    <receta>
+        xsi:noNamespaceSchemaLocation="recetas.xsd">
+
+    <receta codigo="01">
         <nombre>Pizza</nombre>
         <categoria>Principal</categoria>
         <tiempo>30</tiempo>
         <dificultad>Media</dificultad>
     </receta>
 
-    <receta>
+    <receta codigo="02">
         <nombre>Salmorejo</nombre>
         <categoria>Entrante</categoria>
         <tiempo>12</tiempo>
         <dificultad>Baja</dificultad>
     </receta>
 
-    <receta>
+    <receta codigo="03">
         <nombre>Helado</nombre>
         <categoria>Postre</categoria>
         <tiempo>50</tiempo>
         <dificultad>Alta</dificultad>
     </receta>
+
 </recetas>
