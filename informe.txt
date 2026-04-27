@@ -1,0 +1,29 @@
+1. Para crear el xsd he utilizado las etiquetas básicas y me he ceñido a lo que pide la práctica.
+
+El esquema debe cumplir lo siguiente:
+
+- El atributo codigo es obligatorio.
+    - Ejemplo en el código
+    <xs:attribute name="codigo" type="xs:string" use="required"/>
+
+
+- El campo tiempo debe ser de tipo entero. 
+    - Ejemplo en el código
+    <xs:element name="tiempo" type="xs:integer"/>
+
+
+- El campo categoria debe ser uno de los siguientes valores: "Entrante", "Principal" o "Postre".
+    - Ejemplo en el código
+    <xs:element name="categoria">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Entrante"/>
+                <xs:enumeration value="Principal"/>
+                <xs:enumeration value="Postre"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+- Incluye la referencia al esquema en el XML mediante xsi:noNamespaceSchemaLocation.
+    - Ejemplo en el código
+    xsi:noNamespaceSchemaLocation="recetas.xsd"

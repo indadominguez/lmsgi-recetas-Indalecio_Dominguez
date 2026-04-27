@@ -1,2 +1,34 @@
-<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:noNamespaceSchemaLocation="recetas.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="recetas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="receta" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            
+                            <xs:element name="categoria">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Entrante"/>
+                                        <xs:enumeration value="Principal"/>
+                                        <xs:enumeration value="Postre"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="tiempo" type="xs:integer"/>
+                            <xs:element name="dificultad" type="xs:string"/>
+                        </xs:sequence>
+
+                        <xs:attribute name="codigo" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
