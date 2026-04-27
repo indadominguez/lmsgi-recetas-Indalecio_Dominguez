@@ -1,4 +1,5 @@
-<recetas>
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="recetas.xsd">
     <receta>
         <nombre>Pizza</nombre>
         <categoria>Principal</categoria>
